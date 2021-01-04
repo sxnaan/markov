@@ -66,9 +66,12 @@ def print_mkch(mc):
     num_uniq_wrds = 0
     num_links = 0
 
-    for key, value in mc.items():
-        num_links += len(value) 
+    for source, dests in mc.items():
+        num_links += len(dests) 
         num_uniq_wrds += 1
-        print(key, ' : ', value)
+        print(source, ' : ')
+        for word, weight in dests.items():
+            print('\t', word,' : ', weight)
+        print()
 
     print('There are ' + str(num_uniq_wrds) + ' words in this markov chain, with ' + str(num_links) + ' links!')
