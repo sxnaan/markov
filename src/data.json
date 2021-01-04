@@ -1,1431 +1,630 @@
 {
     "nodes": [
         {
-            "id": "fire"
-        },
-        {
-            "id": "burning"
-        },
-        {
-            "id": "somebody"
-        },
-        {
-            "id": "call"
-        },
-        {
-            "id": "911"
-        },
-        {
-            "id": "shawty"
-        },
-        {
-            "id": "fire-burning"
-        },
-        {
-            "id": "on"
-        },
-        {
-            "id": "the"
-        },
-        {
-            "id": "dance"
-        },
-        {
-            "id": "floor"
-        },
-        {
-            "id": "whoa"
-        },
-        {
-            "id": "what's"
-        },
-        {
-            "id": "up"
-        },
-        {
-            "id": "gwan"
-        },
-        {
-            "id": "kingston"
-        },
-        {
-            "id": "let's"
-        },
-        {
-            "id": "go"
-        },
-        {
-            "id": "red"
-        },
-        {
-            "id": "one"
-        },
-        {
-            "id": "got"
-        },
-        {
-            "id": "that"
-        },
-        {
-            "id": "super"
-        },
-        {
-            "id": "thing"
-        },
-        {
-            "id": "hotter"
-        },
-        {
-            "id": "than"
-        },
-        {
-            "id": "sun"
-        },
-        {
-            "id": "of"
-        },
-        {
-            "id": "south"
-        },
-        {
-            "id": "in"
-        },
-        {
-            "id": "spain"
+            "id": "take"
         },
         {
             "id": "me"
         },
         {
-            "id": "soon"
-        },
-        {
-            "id": "as"
-        },
-        {
-            "id": "i"
-        },
-        {
-            "id": "walked"
-        },
-        {
-            "id": "through"
-        },
-        {
-            "id": "door"
-        },
-        {
-            "id": "my"
-        },
-        {
-            "id": "pocket"
-        },
-        {
-            "id": "started"
-        },
-        {
-            "id": "tickling"
-        },
-        {
-            "id": "way"
-        },
-        {
-            "id": "she"
-        },
-        {
-            "id": "dropped"
-        },
-        {
-            "id": "it"
-        },
-        {
-            "id": "low"
-        },
-        {
-            "id": "thang"
-        },
-        {
-            "id": "wanna"
-        },
-        {
-            "id": "spend"
-        },
-        {
-            "id": "money"
-        },
-        {
-            "id": "her"
-        },
-        {
-            "id": "get"
-        },
-        {
-            "id": "pop"
-        },
-        {
-            "id": "lock"
-        },
-        {
-            "id": "drop"
-        },
-        {
-            "id": "birthday"
-        },
-        {
-            "id": "cake"
-        },
-        {
-            "id": "a"
-        },
-        {
-            "id": "candle"
-        },
-        {
-            "id": "need"
-        },
-        {
             "id": "to"
         },
         {
-            "id": "blow"
+            "id": "your"
         },
         {
-            "id": "crazy"
+            "id": "best"
         },
         {
-            "id": "flame"
+            "id": "friend's"
         },
         {
-            "id": "away"
+            "id": "house"
         },
         {
-            "id": "now"
-        },
-        {
-            "id": "take"
-        },
-        {
-            "id": "black"
-        },
-        {
-            "id": "card"
-        },
-        {
-            "id": "and"
-        },
-        {
-            "id": "jewelry"
-        },
-        {
-            "id": "is"
-        },
-        {
-            "id": "cool"
-        },
-        {
-            "id": "like"
-        },
-        {
-            "id": "gotta"
-        },
-        {
-            "id": "down"
-        },
-        {
-            "id": "wan'"
-        },
-        {
-            "id": "bring"
-        },
-        {
-            "id": "roof"
-        },
-        {
-            "id": "ground"
-        },
-        {
-            "id": "she's"
-        },
-        {
-            "id": "little"
-        },
-        {
-            "id": "shawty's"
-        },
-        {
-            "id": "body"
-        },
-        {
-            "id": "masterpiece"
-        },
-        {
-            "id": "order"
-        },
-        {
-            "id": "every"
-        },
-        {
-            "id": "hundred"
-        },
-        {
-            "id": "years"
-        },
-        {
-            "id": "but"
-        },
-        {
-            "id": "ain't"
-        },
-        {
-            "id": "no"
-        },
-        {
-            "id": "doubt"
-        },
-        {
-            "id": "i'm"
-        },
-        {
-            "id": "taking"
-        },
-        {
-            "id": "home"
-        },
-        {
-            "id": "afraid"
-        },
-        {
-            "id": "we'll"
-        },
-        {
-            "id": "them"
-        },
-        {
-            "id": "legs"
-        },
-        {
-            "id": "mama"
-        },
-        {
-            "id": "game"
-        },
-        {
-            "id": "about"
-        },
-        {
-            "id": "change"
-        },
-        {
-            "id": "she'll"
-        },
-        {
-            "id": "be"
-        },
-        {
-            "id": "covers"
-        },
-        {
-            "id": "over"
-        },
-        {
-            "id": "world"
-        },
-        {
-            "id": "that'll"
-        },
-        {
-            "id": "make"
-        },
-        {
-            "id": "fellas"
-        },
-        {
-            "id": "run"
+            "id": "go"
         },
         {
             "id": "around"
         },
         {
-            "id": "exit"
+            "id": "this"
         },
         {
-            "id": "from"
+            "id": "roundabout"
         },
         {
-            "id": "so"
+            "id": "oh"
         },
         {
-            "id": "boys"
+            "id": "yeah"
         },
         {
-            "id": "want"
+            "id": "i"
         },
         {
-            "id": "more"
+            "id": "loved"
         },
         {
-            "id": "madem"
+            "id": "you"
         },
         {
-            "id": "outta"
+            "id": "then"
         },
         {
-            "id": "everybody"
+            "id": "and"
         },
         {
-            "id": "sing"
+            "id": "love"
         },
         {
-            "id": "hey"
+            "id": "now"
         },
         {
-            "id": "what"
+            "id": "don't"
+        },
+        {
+            "id": "tongue"
+        },
+        {
+            "id": "tied"
+        },
+        {
+            "id": "wave"
+        },
+        {
+            "id": "no"
+        },
+        {
+            "id": "goodbye"
+        },
+        {
+            "id": "right"
+        },
+        {
+            "id": "marmalade"
+        },
+        {
+            "id": "we're"
+        },
+        {
+            "id": "making"
+        },
+        {
+            "id": "out"
+        },
+        {
+            "id": "one"
+        },
+        {
+            "id": "two"
+        },
+        {
+            "id": "three"
+        },
+        {
+            "id": "four"
+        },
+        {
+            "id": "leave"
+        },
+        {
+            "id": "let's"
+        },
+        {
+            "id": "stay"
+        },
+        {
+            "id": "up"
+        },
+        {
+            "id": "all"
+        },
+        {
+            "id": "night"
+        },
+        {
+            "id": "i'll"
+        },
+        {
+            "id": "get"
+        },
+        {
+            "id": "real"
+        },
+        {
+            "id": "high"
+        },
+        {
+            "id": "slumber"
+        },
+        {
+            "id": "party"
+        },
+        {
+            "id": "pillow"
+        },
+        {
+            "id": "fight"
+        },
+        {
+            "id": "my"
+        },
+        {
+            "id": "eyes"
+        },
+        {
+            "id": "on"
+        },
+        {
+            "id": "like"
+        },
+        {
+            "id": "peter"
+        },
+        {
+            "id": "pan"
+        },
+        {
+            "id": "in"
+        },
+        {
+            "id": "the"
+        },
+        {
+            "id": "sky"
+        },
+        {
+            "id": "tonight"
+        },
+        {
+            "id": "bump"
+        },
+        {
+            "id": "beats"
+        },
+        {
+            "id": "till"
+        },
+        {
+            "id": "beddy-bye"
+        },
+        {
+            "id": "kiss"
+        },
+        {
+            "id": "goodnight"
         }
     ],
     "links": [
         {
-            "source": "fire",
-            "target": "burning",
-            "weight": 0.111
-        },
-        {
-            "source": "fire",
-            "target": "cool",
-            "weight": 0.333
-        },
-        {
-            "source": "fire",
-            "target": "somebody",
-            "weight": 0.333
-        },
-        {
-            "source": "fire",
-            "target": "in",
-            "weight": 0.222
-        },
-        {
-            "source": "burning",
-            "target": "somebody",
-            "weight": 1.0
-        },
-        {
-            "source": "somebody",
-            "target": "call",
-            "weight": 1.0
-        },
-        {
-            "source": "call",
-            "target": "911",
-            "weight": 1.0
-        },
-        {
-            "source": "911",
-            "target": "shawty",
-            "weight": 1.0
-        },
-        {
-            "source": "shawty",
-            "target": "fire-burning",
-            "weight": 0.5
-        },
-        {
-            "source": "shawty",
-            "target": "got",
-            "weight": 0.125
-        },
-        {
-            "source": "shawty",
-            "target": "is",
-            "weight": 0.375
-        },
-        {
-            "source": "fire-burning",
-            "target": "on",
-            "weight": 0.615
-        },
-        {
-            "source": "fire-burning",
-            "target": "fire-burning",
-            "weight": 0.307
-        },
-        {
-            "source": "fire-burning",
-            "target": "what's",
-            "weight": 0.038
-        },
-        {
-            "source": "fire-burning",
-            "target": "that",
-            "weight": 0.038
-        },
-        {
-            "source": "on",
-            "target": "the",
-            "weight": 0.904
-        },
-        {
-            "source": "on",
-            "target": "her",
-            "weight": 0.047
-        },
-        {
-            "source": "on",
-            "target": "covers",
-            "weight": 0.047
-        },
-        {
-            "source": "the",
-            "target": "dance",
-            "weight": 0.656
-        },
-        {
-            "source": "the",
-            "target": "sun",
-            "weight": 0.031
-        },
-        {
-            "source": "the",
-            "target": "door",
-            "weight": 0.031
-        },
-        {
-            "source": "the",
-            "target": "way",
-            "weight": 0.031
-        },
-        {
-            "source": "the",
-            "target": "fire",
-            "weight": 0.093
-        },
-        {
-            "source": "the",
-            "target": "roof",
-            "weight": 0.093
-        },
-        {
-            "source": "the",
-            "target": "order",
-            "weight": 0.031
-        },
-        {
-            "source": "the",
-            "target": "world",
-            "weight": 0.031
-        },
-        {
-            "source": "dance",
-            "target": "floor",
-            "weight": 0.913
-        },
-        {
-            "source": "dance",
-            "target": "that'll",
-            "weight": 0.086
-        },
-        {
-            "source": "floor",
-            "target": "whoa",
-            "weight": 0.333
-        },
-        {
-            "source": "floor",
-            "target": "that",
-            "weight": 0.285
-        },
-        {
-            "source": "floor",
-            "target": "she's",
-            "weight": 0.142
-        },
-        {
-            "source": "floor",
-            "target": "fire-burning",
-            "weight": 0.047
-        },
-        {
-            "source": "floor",
-            "target": "she",
-            "weight": 0.047
-        },
-        {
-            "source": "floor",
-            "target": "so",
-            "weight": 0.095
-        },
-        {
-            "source": "floor",
-            "target": "somebody",
-            "weight": 0.047
-        },
-        {
-            "source": "whoa",
-            "target": "fire-burning",
-            "weight": 0.166
-        },
-        {
-            "source": "whoa",
-            "target": "i",
-            "weight": 0.5
-        },
-        {
-            "source": "whoa",
-            "target": "she's",
-            "weight": 0.333
-        },
-        {
-            "source": "what's",
-            "target": "up",
-            "weight": 1.0
-        },
-        {
-            "source": "up",
-            "target": "gwan",
-            "weight": 1.0
-        },
-        {
-            "source": "gwan",
-            "target": "kingston",
-            "weight": 0.5
-        },
-        {
-            "source": "gwan",
-            "target": "let's",
-            "weight": 0.5
-        },
-        {
-            "source": "kingston",
-            "target": "let's",
-            "weight": 1.0
-        },
-        {
-            "source": "let's",
-            "target": "go",
-            "weight": 1.0
-        },
-        {
-            "source": "go",
-            "target": "red",
-            "weight": 0.333
-        },
-        {
-            "source": "go",
-            "target": "madem",
-            "weight": 0.333
-        },
-        {
-            "source": "go",
-            "target": "hey",
-            "weight": 0.333
-        },
-        {
-            "source": "red",
-            "target": "one",
-            "weight": 0.25
-        },
-        {
-            "source": "red",
-            "target": "black",
-            "weight": 0.75
-        },
-        {
-            "source": "one",
-            "target": "shawty",
-            "weight": 0.5
-        },
-        {
-            "source": "one",
-            "target": "in",
-            "weight": 0.5
-        },
-        {
-            "source": "got",
-            "target": "that",
-            "weight": 0.375
-        },
-        {
-            "source": "got",
-            "target": "me",
-            "weight": 0.25
-        },
-        {
-            "source": "got",
-            "target": "a",
-            "weight": 0.375
-        },
-        {
-            "source": "that",
-            "target": "super",
-            "weight": 0.058
-        },
-        {
-            "source": "that",
-            "target": "thang",
-            "weight": 0.058
-        },
-        {
-            "source": "that",
-            "target": "birthday",
-            "weight": 0.176
-        },
-        {
-            "source": "that",
-            "target": "crazy",
-            "weight": 0.176
-        },
-        {
-            "source": "that",
-            "target": "little",
-            "weight": 0.352
-        },
-        {
-            "source": "that",
-            "target": "body",
-            "weight": 0.058
-        },
-        {
-            "source": "that",
-            "target": "fire",
-            "weight": 0.117
-        },
-        {
-            "source": "super",
-            "target": "thing",
-            "weight": 1.0
-        },
-        {
-            "source": "thing",
-            "target": "hotter",
-            "weight": 1.0
-        },
-        {
-            "source": "hotter",
-            "target": "than",
-            "weight": 1.0
-        },
-        {
-            "source": "than",
-            "target": "the",
-            "weight": 1.0
-        },
-        {
-            "source": "sun",
-            "target": "of",
-            "weight": 1.0
-        },
-        {
-            "source": "of",
-            "target": "south",
-            "weight": 1.0
-        },
-        {
-            "source": "south",
-            "target": "in",
-            "weight": 1.0
-        },
-        {
-            "source": "in",
-            "target": "spain",
-            "weight": 0.25
-        },
-        {
-            "source": "in",
-            "target": "every",
-            "weight": 0.25
-        },
-        {
-            "source": "in",
-            "target": "her",
-            "weight": 0.5
-        },
-        {
-            "source": "spain",
-            "target": "got",
-            "weight": 1.0
-        },
-        {
-            "source": "me",
-            "target": "soon",
-            "weight": 0.5
-        },
-        {
-            "source": "me",
-            "target": "wanna",
-            "weight": 0.5
-        },
-        {
-            "source": "soon",
-            "target": "as",
-            "weight": 1.0
-        },
-        {
-            "source": "as",
-            "target": "i",
-            "weight": 1.0
-        },
-        {
-            "source": "i",
-            "target": "walked",
-            "weight": 0.25
-        },
-        {
-            "source": "i",
-            "target": "gotta",
-            "weight": 0.75
-        },
-        {
-            "source": "walked",
-            "target": "through",
-            "weight": 1.0
-        },
-        {
-            "source": "through",
-            "target": "the",
-            "weight": 1.0
-        },
-        {
-            "source": "door",
-            "target": "my",
-            "weight": 1.0
-        },
-        {
-            "source": "my",
-            "target": "pocket",
-            "weight": 0.111
-        },
-        {
-            "source": "my",
-            "target": "money",
-            "weight": 0.111
-        },
-        {
-            "source": "my",
-            "target": "red",
-            "weight": 0.333
-        },
-        {
-            "source": "my",
-            "target": "jewelry",
-            "weight": 0.333
-        },
-        {
-            "source": "my",
-            "target": "way",
-            "weight": 0.111
-        },
-        {
-            "source": "pocket",
-            "target": "started",
-            "weight": 1.0
-        },
-        {
-            "source": "started",
-            "target": "tickling",
-            "weight": 1.0
-        },
-        {
-            "source": "tickling",
-            "target": "the",
-            "weight": 1.0
-        },
-        {
-            "source": "way",
-            "target": "she",
-            "weight": 0.5
-        },
-        {
-            "source": "way",
-            "target": "everybody",
-            "weight": 0.5
-        },
-        {
-            "source": "she",
-            "target": "dropped",
-            "weight": 0.111
-        },
-        {
-            "source": "she",
-            "target": "get",
-            "weight": 0.333
-        },
-        {
-            "source": "she",
-            "target": "wan'",
-            "weight": 0.333
-        },
-        {
-            "source": "she",
-            "target": "got",
-            "weight": 0.222
-        },
-        {
-            "source": "dropped",
-            "target": "it",
-            "weight": 1.0
-        },
-        {
-            "source": "it",
-            "target": "low",
-            "weight": 0.066
-        },
-        {
-            "source": "it",
-            "target": "pop",
-            "weight": 0.2
-        },
-        {
-            "source": "it",
-            "target": "lock",
-            "weight": 0.2
-        },
-        {
-            "source": "it",
-            "target": "drop",
-            "weight": 0.2
-        },
-        {
-            "source": "it",
-            "target": "that",
-            "weight": 0.2
-        },
-        {
-            "source": "it",
-            "target": "home",
-            "weight": 0.066
-        },
-        {
-            "source": "it",
-            "target": "now",
-            "weight": 0.066
-        },
-        {
-            "source": "low",
-            "target": "that",
-            "weight": 1.0
-        },
-        {
-            "source": "thang",
-            "target": "got",
-            "weight": 1.0
-        },
-        {
-            "source": "wanna",
-            "target": "spend",
-            "weight": 1.0
-        },
-        {
-            "source": "spend",
-            "target": "my",
-            "weight": 1.0
-        },
-        {
-            "source": "money",
-            "target": "on",
-            "weight": 1.0
-        },
-        {
-            "source": "her",
-            "target": "her",
-            "weight": 0.142
-        },
-        {
-            "source": "her",
-            "target": "she",
-            "weight": 0.142
-        },
-        {
-            "source": "her",
-            "target": "down",
-            "weight": 0.428
-        },
-        {
-            "source": "her",
-            "target": "dance",
-            "weight": 0.285
-        },
-        {
-            "source": "get",
-            "target": "it",
-            "weight": 0.75
-        },
-        {
-            "source": "get",
-            "target": "outta",
-            "weight": 0.25
-        },
-        {
-            "source": "pop",
-            "target": "it",
-            "weight": 1.0
-        },
-        {
-            "source": "lock",
-            "target": "it",
-            "weight": 1.0
-        },
-        {
-            "source": "drop",
-            "target": "it",
-            "weight": 1.0
-        },
-        {
-            "source": "birthday",
-            "target": "cake",
-            "weight": 1.0
-        },
-        {
-            "source": "cake",
-            "target": "got",
-            "weight": 1.0
-        },
-        {
-            "source": "a",
-            "target": "candle",
-            "weight": 0.6
-        },
-        {
-            "source": "a",
-            "target": "masterpiece",
-            "weight": 0.2
-        },
-        {
-            "source": "a",
-            "target": "gwan",
-            "weight": 0.2
-        },
-        {
-            "source": "candle",
-            "target": "need",
-            "weight": 1.0
-        },
-        {
-            "source": "need",
-            "target": "to",
-            "weight": 1.0
-        },
-        {
-            "source": "to",
-            "target": "blow",
-            "weight": 0.428
-        },
-        {
-            "source": "to",
-            "target": "ground",
-            "weight": 0.428
-        },
-        {
-            "source": "to",
-            "target": "change",
-            "weight": 0.142
-        },
-        {
-            "source": "blow",
-            "target": "that",
-            "weight": 0.75
-        },
-        {
-            "source": "blow",
-            "target": "them",
-            "weight": 0.25
-        },
-        {
-            "source": "crazy",
-            "target": "flame",
-            "weight": 1.0
-        },
-        {
-            "source": "flame",
-            "target": "away",
-            "weight": 1.0
-        },
-        {
-            "source": "away",
-            "target": "now",
-            "weight": 1.0
-        },
-        {
-            "source": "now",
-            "target": "take",
-            "weight": 0.75
-        },
-        {
-            "source": "now",
-            "target": "hey",
-            "weight": 0.25
-        },
-        {
             "source": "take",
-            "target": "my",
+            "target": "me",
             "weight": 1.0
         },
         {
-            "source": "black",
-            "target": "card",
-            "weight": 1.0
-        },
-        {
-            "source": "card",
-            "target": "and",
-            "weight": 1.0
-        },
-        {
-            "source": "and",
-            "target": "my",
-            "weight": 1.0
-        },
-        {
-            "source": "jewelry",
-            "target": "shawty",
-            "weight": 1.0
-        },
-        {
-            "source": "is",
-            "target": "cool",
-            "weight": 0.5
-        },
-        {
-            "source": "is",
-            "target": "a",
-            "weight": 0.166
-        },
-        {
-            "source": "is",
-            "target": "one",
-            "weight": 0.166
-        },
-        {
-            "source": "is",
-            "target": "about",
-            "weight": 0.166
-        },
-        {
-            "source": "cool",
-            "target": "like",
-            "weight": 0.666
-        },
-        {
-            "source": "cool",
-            "target": "her",
-            "weight": 0.333
-        },
-        {
-            "source": "like",
-            "target": "the",
-            "weight": 0.5
-        },
-        {
-            "source": "like",
-            "target": "fire",
-            "weight": 0.5
-        },
-        {
-            "source": "gotta",
-            "target": "cool",
-            "weight": 1.0
-        },
-        {
-            "source": "down",
-            "target": "she",
-            "weight": 1.0
-        },
-        {
-            "source": "wan'",
-            "target": "bring",
-            "weight": 1.0
-        },
-        {
-            "source": "bring",
-            "target": "the",
-            "weight": 1.0
-        },
-        {
-            "source": "roof",
+            "source": "me",
             "target": "to",
+            "weight": 0.428
+        },
+        {
+            "source": "me",
+            "target": "tongue",
+            "weight": 0.5
+        },
+        {
+            "source": "me",
+            "target": "goodnight",
+            "weight": 0.071
+        },
+        {
+            "source": "to",
+            "target": "your",
             "weight": 1.0
         },
         {
-            "source": "ground",
-            "target": "on",
-            "weight": 1.0
-        },
-        {
-            "source": "she's",
-            "target": "fire-burning",
-            "weight": 1.0
-        },
-        {
-            "source": "little",
-            "target": "shawty's",
+            "source": "your",
+            "target": "best",
             "weight": 0.857
         },
         {
-            "source": "little",
-            "target": "mama",
+            "source": "your",
+            "target": "eyes",
             "weight": 0.142
         },
         {
-            "source": "shawty's",
-            "target": "fire-burning",
+            "source": "best",
+            "target": "friend's",
             "weight": 1.0
         },
         {
-            "source": "body",
-            "target": "is",
+            "source": "friend's",
+            "target": "house",
             "weight": 1.0
         },
         {
-            "source": "masterpiece",
-            "target": "the",
-            "weight": 1.0
+            "source": "house",
+            "target": "go",
+            "weight": 0.285
         },
         {
-            "source": "order",
-            "target": "is",
-            "weight": 1.0
+            "source": "house",
+            "target": "i",
+            "weight": 0.428
         },
         {
-            "source": "every",
-            "target": "hundred",
-            "weight": 1.0
+            "source": "house",
+            "target": "marmalade",
+            "weight": 0.142
         },
         {
-            "source": "hundred",
-            "target": "years",
-            "weight": 1.0
+            "source": "house",
+            "target": "tonight",
+            "weight": 0.142
         },
         {
-            "source": "years",
-            "target": "but",
-            "weight": 1.0
-        },
-        {
-            "source": "but",
-            "target": "ain't",
-            "weight": 1.0
-        },
-        {
-            "source": "ain't",
-            "target": "no",
-            "weight": 1.0
-        },
-        {
-            "source": "no",
-            "target": "doubt",
-            "weight": 0.333
-        },
-        {
-            "source": "no",
-            "target": "exit",
-            "weight": 0.666
-        },
-        {
-            "source": "doubt",
-            "target": "i'm",
-            "weight": 1.0
-        },
-        {
-            "source": "i'm",
-            "target": "taking",
-            "weight": 0.5
-        },
-        {
-            "source": "i'm",
-            "target": "afraid",
-            "weight": 0.5
-        },
-        {
-            "source": "taking",
-            "target": "it",
-            "weight": 1.0
-        },
-        {
-            "source": "home",
-            "target": "i'm",
-            "weight": 1.0
-        },
-        {
-            "source": "afraid",
-            "target": "we'll",
-            "weight": 1.0
-        },
-        {
-            "source": "we'll",
-            "target": "blow",
-            "weight": 1.0
-        },
-        {
-            "source": "them",
-            "target": "legs",
-            "weight": 0.2
-        },
-        {
-            "source": "them",
-            "target": "fellas",
-            "weight": 0.4
-        },
-        {
-            "source": "them",
-            "target": "boys",
-            "weight": 0.4
-        },
-        {
-            "source": "legs",
-            "target": "little",
-            "weight": 1.0
-        },
-        {
-            "source": "mama",
-            "target": "game",
-            "weight": 1.0
-        },
-        {
-            "source": "game",
-            "target": "is",
-            "weight": 1.0
-        },
-        {
-            "source": "about",
-            "target": "to",
-            "weight": 1.0
-        },
-        {
-            "source": "change",
-            "target": "she'll",
-            "weight": 1.0
-        },
-        {
-            "source": "she'll",
-            "target": "be",
-            "weight": 1.0
-        },
-        {
-            "source": "be",
-            "target": "on",
-            "weight": 1.0
-        },
-        {
-            "source": "covers",
-            "target": "over",
-            "weight": 1.0
-        },
-        {
-            "source": "over",
-            "target": "the",
-            "weight": 1.0
-        },
-        {
-            "source": "world",
-            "target": "world",
-            "weight": 0.5
-        },
-        {
-            "source": "world",
-            "target": "she",
-            "weight": 0.5
-        },
-        {
-            "source": "that'll",
-            "target": "make",
-            "weight": 1.0
-        },
-        {
-            "source": "make",
-            "target": "them",
-            "weight": 1.0
-        },
-        {
-            "source": "fellas",
-            "target": "run",
-            "weight": 1.0
-        },
-        {
-            "source": "run",
+            "source": "go",
             "target": "around",
             "weight": 1.0
         },
         {
             "source": "around",
-            "target": "no",
-            "weight": 0.5
-        },
-        {
-            "source": "around",
-            "target": "madem",
-            "weight": 0.5
-        },
-        {
-            "source": "exit",
-            "target": "from",
+            "target": "this",
             "weight": 1.0
         },
         {
-            "source": "from",
-            "target": "the",
+            "source": "this",
+            "target": "roundabout",
             "weight": 1.0
         },
         {
-            "source": "so",
-            "target": "them",
+            "source": "roundabout",
+            "target": "oh",
             "weight": 1.0
         },
         {
-            "source": "boys",
-            "target": "want",
+            "source": "oh",
+            "target": "yeah",
             "weight": 1.0
         },
         {
-            "source": "want",
-            "target": "more",
-            "weight": 1.0
+            "source": "yeah",
+            "target": "take",
+            "weight": 0.75
         },
         {
-            "source": "more",
-            "target": "she",
+            "source": "yeah",
+            "target": "don't",
+            "weight": 0.25
+        },
+        {
+            "source": "i",
+            "target": "loved",
             "weight": 0.5
         },
         {
-            "source": "more",
-            "target": "what",
+            "source": "i",
+            "target": "love",
             "weight": 0.5
         },
         {
-            "source": "madem",
-            "target": "get",
+            "source": "loved",
+            "target": "you",
+            "weight": 1.0
+        },
+        {
+            "source": "you",
+            "target": "then",
             "weight": 0.5
         },
         {
-            "source": "madem",
+            "source": "you",
+            "target": "now",
+            "weight": 0.5
+        },
+        {
+            "source": "then",
+            "target": "and",
+            "weight": 1.0
+        },
+        {
+            "source": "and",
+            "target": "i",
+            "weight": 1.0
+        },
+        {
+            "source": "love",
+            "target": "you",
+            "weight": 1.0
+        },
+        {
+            "source": "now",
+            "target": "oh",
+            "weight": 0.333
+        },
+        {
+            "source": "now",
+            "target": "don't",
+            "weight": 0.666
+        },
+        {
+            "source": "don't",
+            "target": "take",
+            "weight": 0.333
+        },
+        {
+            "source": "don't",
+            "target": "wave",
+            "weight": 0.266
+        },
+        {
+            "source": "don't",
+            "target": "right",
+            "weight": 0.133
+        },
+        {
+            "source": "don't",
+            "target": "leave",
+            "weight": 0.2
+        },
+        {
+            "source": "don't",
+            "target": "kiss",
+            "weight": 0.066
+        },
+        {
+            "source": "tongue",
+            "target": "tied",
+            "weight": 1.0
+        },
+        {
+            "source": "tied",
+            "target": "don't",
+            "weight": 0.857
+        },
+        {
+            "source": "tied",
             "target": "let's",
+            "weight": 0.142
+        },
+        {
+            "source": "wave",
+            "target": "no",
+            "weight": 1.0
+        },
+        {
+            "source": "no",
+            "target": "goodbye",
+            "weight": 1.0
+        },
+        {
+            "source": "goodbye",
+            "target": "don't",
+            "weight": 1.0
+        },
+        {
+            "source": "right",
+            "target": "take",
             "weight": 0.5
         },
         {
-            "source": "outta",
+            "source": "right",
+            "target": "one",
+            "weight": 0.5
+        },
+        {
+            "source": "marmalade",
+            "target": "we're",
+            "weight": 1.0
+        },
+        {
+            "source": "we're",
+            "target": "making",
+            "weight": 1.0
+        },
+        {
+            "source": "making",
+            "target": "out",
+            "weight": 1.0
+        },
+        {
+            "source": "out",
+            "target": "oh",
+            "weight": 1.0
+        },
+        {
+            "source": "one",
+            "target": "two",
+            "weight": 1.0
+        },
+        {
+            "source": "two",
+            "target": "three",
+            "weight": 1.0
+        },
+        {
+            "source": "three",
+            "target": "four",
+            "weight": 1.0
+        },
+        {
+            "source": "four",
+            "target": "don't",
+            "weight": 1.0
+        },
+        {
+            "source": "leave",
+            "target": "me",
+            "weight": 1.0
+        },
+        {
+            "source": "let's",
+            "target": "stay",
+            "weight": 0.5
+        },
+        {
+            "source": "let's",
+            "target": "bump",
+            "weight": 0.5
+        },
+        {
+            "source": "stay",
+            "target": "up",
+            "weight": 1.0
+        },
+        {
+            "source": "up",
+            "target": "all",
+            "weight": 0.5
+        },
+        {
+            "source": "up",
+            "target": "in",
+            "weight": 0.5
+        },
+        {
+            "source": "all",
+            "target": "night",
+            "weight": 1.0
+        },
+        {
+            "source": "night",
+            "target": "i'll",
+            "weight": 1.0
+        },
+        {
+            "source": "i'll",
+            "target": "get",
+            "weight": 1.0
+        },
+        {
+            "source": "get",
+            "target": "real",
+            "weight": 1.0
+        },
+        {
+            "source": "real",
+            "target": "high",
+            "weight": 1.0
+        },
+        {
+            "source": "high",
+            "target": "slumber",
+            "weight": 1.0
+        },
+        {
+            "source": "slumber",
+            "target": "party",
+            "weight": 1.0
+        },
+        {
+            "source": "party",
+            "target": "pillow",
+            "weight": 1.0
+        },
+        {
+            "source": "pillow",
+            "target": "fight",
+            "weight": 1.0
+        },
+        {
+            "source": "fight",
             "target": "my",
             "weight": 1.0
         },
         {
-            "source": "everybody",
-            "target": "sing",
-            "weight": 1.0
-        },
-        {
-            "source": "sing",
-            "target": "it",
-            "weight": 1.0
-        },
-        {
-            "source": "hey",
-            "target": "no",
+            "source": "my",
+            "target": "eyes",
             "weight": 0.5
         },
         {
-            "source": "hey",
-            "target": "she",
+            "source": "my",
+            "target": "best",
             "weight": 0.5
         },
         {
-            "source": "what",
-            "target": "a",
+            "source": "eyes",
+            "target": "on",
+            "weight": 0.5
+        },
+        {
+            "source": "eyes",
+            "target": "like",
+            "weight": 0.5
+        },
+        {
+            "source": "on",
+            "target": "your",
+            "weight": 1.0
+        },
+        {
+            "source": "like",
+            "target": "peter",
+            "weight": 1.0
+        },
+        {
+            "source": "peter",
+            "target": "pan",
+            "weight": 1.0
+        },
+        {
+            "source": "pan",
+            "target": "up",
+            "weight": 1.0
+        },
+        {
+            "source": "in",
+            "target": "the",
+            "weight": 1.0
+        },
+        {
+            "source": "the",
+            "target": "sky",
+            "weight": 0.5
+        },
+        {
+            "source": "the",
+            "target": "beats",
+            "weight": 0.5
+        },
+        {
+            "source": "sky",
+            "target": "my",
+            "weight": 1.0
+        },
+        {
+            "source": "tonight",
+            "target": "let's",
+            "weight": 1.0
+        },
+        {
+            "source": "bump",
+            "target": "the",
+            "weight": 1.0
+        },
+        {
+            "source": "beats",
+            "target": "till",
+            "weight": 1.0
+        },
+        {
+            "source": "till",
+            "target": "beddy-bye",
+            "weight": 1.0
+        },
+        {
+            "source": "beddy-bye",
+            "target": "don't",
+            "weight": 1.0
+        },
+        {
+            "source": "kiss",
+            "target": "me",
+            "weight": 1.0
+        },
+        {
+            "source": "goodnight",
+            "target": "don't",
             "weight": 1.0
         }
     ]
