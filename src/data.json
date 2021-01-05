@@ -1,631 +1,685 @@
 {
-    "nodes": [
-        {
-            "id": "take"
-        },
-        {
-            "id": "me"
-        },
-        {
-            "id": "to"
-        },
-        {
-            "id": "your"
-        },
-        {
-            "id": "best"
-        },
-        {
-            "id": "friend's"
-        },
-        {
-            "id": "house"
-        },
-        {
-            "id": "go"
-        },
-        {
-            "id": "around"
-        },
-        {
-            "id": "this"
-        },
-        {
-            "id": "roundabout"
-        },
-        {
-            "id": "oh"
-        },
-        {
-            "id": "yeah"
-        },
-        {
-            "id": "i"
-        },
-        {
-            "id": "loved"
-        },
-        {
-            "id": "you"
-        },
-        {
-            "id": "then"
-        },
-        {
-            "id": "and"
-        },
-        {
-            "id": "love"
-        },
-        {
-            "id": "now"
-        },
-        {
-            "id": "don't"
-        },
-        {
-            "id": "tongue"
-        },
-        {
-            "id": "tied"
-        },
-        {
-            "id": "wave"
-        },
-        {
-            "id": "no"
-        },
-        {
-            "id": "goodbye"
-        },
-        {
-            "id": "right"
-        },
-        {
-            "id": "marmalade"
-        },
-        {
-            "id": "we're"
-        },
-        {
-            "id": "making"
-        },
-        {
-            "id": "out"
-        },
-        {
-            "id": "one"
-        },
-        {
-            "id": "two"
-        },
-        {
-            "id": "three"
-        },
-        {
-            "id": "four"
-        },
-        {
-            "id": "leave"
-        },
-        {
-            "id": "let's"
-        },
-        {
-            "id": "stay"
-        },
-        {
-            "id": "up"
-        },
-        {
-            "id": "all"
-        },
-        {
-            "id": "night"
-        },
-        {
-            "id": "i'll"
-        },
-        {
-            "id": "get"
-        },
-        {
-            "id": "real"
-        },
-        {
-            "id": "high"
-        },
-        {
-            "id": "slumber"
-        },
-        {
-            "id": "party"
-        },
-        {
-            "id": "pillow"
-        },
-        {
-            "id": "fight"
-        },
-        {
-            "id": "my"
-        },
-        {
-            "id": "eyes"
-        },
-        {
-            "id": "on"
-        },
-        {
-            "id": "like"
-        },
-        {
-            "id": "peter"
-        },
-        {
-            "id": "pan"
-        },
-        {
-            "id": "in"
-        },
-        {
-            "id": "the"
-        },
-        {
-            "id": "sky"
-        },
-        {
-            "id": "tonight"
-        },
-        {
-            "id": "bump"
-        },
-        {
-            "id": "beats"
-        },
-        {
-            "id": "till"
-        },
-        {
-            "id": "beddy-bye"
-        },
-        {
-            "id": "kiss"
-        },
-        {
-            "id": "goodnight"
-        }
-    ],
-    "links": [
-        {
-            "source": "take",
-            "target": "me",
-            "weight": 1.0
-        },
-        {
-            "source": "me",
-            "target": "to",
-            "weight": 0.428
-        },
-        {
-            "source": "me",
-            "target": "tongue",
-            "weight": 0.5
-        },
-        {
-            "source": "me",
-            "target": "goodnight",
-            "weight": 0.071
-        },
-        {
-            "source": "to",
-            "target": "your",
-            "weight": 1.0
-        },
-        {
-            "source": "your",
-            "target": "best",
-            "weight": 0.857
-        },
-        {
-            "source": "your",
-            "target": "eyes",
-            "weight": 0.142
-        },
-        {
-            "source": "best",
-            "target": "friend's",
-            "weight": 1.0
-        },
-        {
-            "source": "friend's",
-            "target": "house",
-            "weight": 1.0
-        },
-        {
-            "source": "house",
-            "target": "go",
-            "weight": 0.285
-        },
-        {
-            "source": "house",
-            "target": "i",
-            "weight": 0.428
-        },
-        {
-            "source": "house",
-            "target": "marmalade",
-            "weight": 0.142
-        },
-        {
-            "source": "house",
-            "target": "tonight",
-            "weight": 0.142
-        },
-        {
-            "source": "go",
-            "target": "around",
-            "weight": 1.0
-        },
-        {
-            "source": "around",
-            "target": "this",
-            "weight": 1.0
-        },
-        {
-            "source": "this",
-            "target": "roundabout",
-            "weight": 1.0
-        },
-        {
-            "source": "roundabout",
-            "target": "oh",
-            "weight": 1.0
-        },
-        {
-            "source": "oh",
-            "target": "yeah",
-            "weight": 1.0
-        },
-        {
-            "source": "yeah",
-            "target": "take",
-            "weight": 0.75
-        },
-        {
-            "source": "yeah",
-            "target": "don't",
-            "weight": 0.25
-        },
-        {
-            "source": "i",
-            "target": "loved",
-            "weight": 0.5
-        },
-        {
-            "source": "i",
-            "target": "love",
-            "weight": 0.5
-        },
-        {
-            "source": "loved",
-            "target": "you",
-            "weight": 1.0
-        },
-        {
-            "source": "you",
-            "target": "then",
-            "weight": 0.5
-        },
-        {
-            "source": "you",
-            "target": "now",
-            "weight": 0.5
-        },
-        {
-            "source": "then",
-            "target": "and",
-            "weight": 1.0
-        },
-        {
-            "source": "and",
-            "target": "i",
-            "weight": 1.0
-        },
-        {
-            "source": "love",
-            "target": "you",
-            "weight": 1.0
-        },
-        {
-            "source": "now",
-            "target": "oh",
-            "weight": 0.333
-        },
-        {
-            "source": "now",
-            "target": "don't",
-            "weight": 0.666
-        },
-        {
-            "source": "don't",
-            "target": "take",
-            "weight": 0.333
-        },
-        {
-            "source": "don't",
-            "target": "wave",
-            "weight": 0.266
-        },
-        {
-            "source": "don't",
-            "target": "right",
-            "weight": 0.133
-        },
-        {
-            "source": "don't",
-            "target": "leave",
-            "weight": 0.2
-        },
-        {
-            "source": "don't",
-            "target": "kiss",
-            "weight": 0.066
-        },
-        {
-            "source": "tongue",
-            "target": "tied",
-            "weight": 1.0
-        },
-        {
-            "source": "tied",
-            "target": "don't",
-            "weight": 0.857
-        },
-        {
-            "source": "tied",
-            "target": "let's",
-            "weight": 0.142
-        },
-        {
-            "source": "wave",
-            "target": "no",
-            "weight": 1.0
-        },
-        {
-            "source": "no",
-            "target": "goodbye",
-            "weight": 1.0
-        },
-        {
-            "source": "goodbye",
-            "target": "don't",
-            "weight": 1.0
-        },
-        {
-            "source": "right",
-            "target": "take",
-            "weight": 0.5
-        },
-        {
-            "source": "right",
-            "target": "one",
-            "weight": 0.5
-        },
-        {
-            "source": "marmalade",
-            "target": "we're",
-            "weight": 1.0
-        },
-        {
-            "source": "we're",
-            "target": "making",
-            "weight": 1.0
-        },
-        {
-            "source": "making",
-            "target": "out",
-            "weight": 1.0
-        },
-        {
-            "source": "out",
-            "target": "oh",
-            "weight": 1.0
-        },
-        {
-            "source": "one",
-            "target": "two",
-            "weight": 1.0
-        },
-        {
-            "source": "two",
-            "target": "three",
-            "weight": 1.0
-        },
-        {
-            "source": "three",
-            "target": "four",
-            "weight": 1.0
-        },
-        {
-            "source": "four",
-            "target": "don't",
-            "weight": 1.0
-        },
-        {
-            "source": "leave",
-            "target": "me",
-            "weight": 1.0
-        },
-        {
-            "source": "let's",
-            "target": "stay",
-            "weight": 0.5
-        },
-        {
-            "source": "let's",
-            "target": "bump",
-            "weight": 0.5
-        },
-        {
-            "source": "stay",
-            "target": "up",
-            "weight": 1.0
-        },
-        {
-            "source": "up",
-            "target": "all",
-            "weight": 0.5
-        },
-        {
-            "source": "up",
-            "target": "in",
-            "weight": 0.5
-        },
-        {
-            "source": "all",
-            "target": "night",
-            "weight": 1.0
-        },
-        {
-            "source": "night",
-            "target": "i'll",
-            "weight": 1.0
-        },
-        {
-            "source": "i'll",
-            "target": "get",
-            "weight": 1.0
-        },
-        {
-            "source": "get",
-            "target": "real",
-            "weight": 1.0
-        },
-        {
-            "source": "real",
-            "target": "high",
-            "weight": 1.0
-        },
-        {
-            "source": "high",
-            "target": "slumber",
-            "weight": 1.0
-        },
-        {
-            "source": "slumber",
-            "target": "party",
-            "weight": 1.0
-        },
-        {
-            "source": "party",
-            "target": "pillow",
-            "weight": 1.0
-        },
-        {
-            "source": "pillow",
-            "target": "fight",
-            "weight": 1.0
-        },
-        {
-            "source": "fight",
-            "target": "my",
-            "weight": 1.0
-        },
-        {
-            "source": "my",
-            "target": "eyes",
-            "weight": 0.5
-        },
-        {
-            "source": "my",
-            "target": "best",
-            "weight": 0.5
-        },
-        {
-            "source": "eyes",
-            "target": "on",
-            "weight": 0.5
-        },
-        {
-            "source": "eyes",
-            "target": "like",
-            "weight": 0.5
-        },
-        {
-            "source": "on",
-            "target": "your",
-            "weight": 1.0
-        },
-        {
-            "source": "like",
-            "target": "peter",
-            "weight": 1.0
-        },
-        {
-            "source": "peter",
-            "target": "pan",
-            "weight": 1.0
-        },
-        {
-            "source": "pan",
-            "target": "up",
-            "weight": 1.0
-        },
-        {
-            "source": "in",
-            "target": "the",
-            "weight": 1.0
-        },
-        {
-            "source": "the",
-            "target": "sky",
-            "weight": 0.5
-        },
-        {
-            "source": "the",
-            "target": "beats",
-            "weight": 0.5
-        },
-        {
-            "source": "sky",
-            "target": "my",
-            "weight": 1.0
-        },
-        {
-            "source": "tonight",
-            "target": "let's",
-            "weight": 1.0
-        },
-        {
-            "source": "bump",
-            "target": "the",
-            "weight": 1.0
-        },
-        {
-            "source": "beats",
-            "target": "till",
-            "weight": 1.0
-        },
-        {
-            "source": "till",
-            "target": "beddy-bye",
-            "weight": 1.0
-        },
-        {
-            "source": "beddy-bye",
-            "target": "don't",
-            "weight": 1.0
-        },
-        {
-            "source": "kiss",
-            "target": "me",
-            "weight": 1.0
-        },
-        {
-            "source": "goodnight",
-            "target": "don't",
-            "weight": 1.0
-        }
-    ]
+  "nodes": [
+    {
+      "id": "look"
+    },
+    {
+      "id": "at"
+    },
+    {
+      "id": "the"
+    },
+    {
+      "id": "stars"
+    },
+    {
+      "id": "how"
+    },
+    {
+      "id": "they"
+    },
+    {
+      "id": "shine"
+    },
+    {
+      "id": "for"
+    },
+    {
+      "id": "you"
+    },
+    {
+      "id": "and"
+    },
+    {
+      "id": "everything"
+    },
+    {
+      "id": "do"
+    },
+    {
+      "id": "yeah"
+    },
+    {
+      "id": "were"
+    },
+    {
+      "id": "all"
+    },
+    {
+      "id": "yellow"
+    },
+    {
+      "id": "i"
+    },
+    {
+      "id": "came"
+    },
+    {
+      "id": "along"
+    },
+    {
+      "id": "wrote"
+    },
+    {
+      "id": "a"
+    },
+    {
+      "id": "song"
+    },
+    {
+      "id": "things"
+    },
+    {
+      "id": "it"
+    },
+    {
+      "id": "was"
+    },
+    {
+      "id": "called"
+    },
+    {
+      "id": "so"
+    },
+    {
+      "id": "then"
+    },
+    {
+      "id": "took"
+    },
+    {
+      "id": "my"
+    },
+    {
+      "id": "turn"
+    },
+    {
+      "id": "oh"
+    },
+    {
+      "id": "what"
+    },
+    {
+      "id": "thing"
+    },
+    {
+      "id": "to"
+    },
+    {
+      "id": "have"
+    },
+    {
+      "id": "done"
+    },
+    {
+      "id": "your"
+    },
+    {
+      "id": "skin"
+    },
+    {
+      "id": "bones"
+    },
+    {
+      "id": "into"
+    },
+    {
+      "id": "something"
+    },
+    {
+      "id": "beautiful"
+    },
+    {
+      "id": "know"
+    },
+    {
+      "id": "love"
+    },
+    {
+      "id": "swam"
+    },
+    {
+      "id": "across"
+    },
+    {
+      "id": "jumped"
+    },
+    {
+      "id": "'cause"
+    },
+    {
+      "id": "drew"
+    },
+    {
+      "id": "line"
+    },
+    {
+      "id": "i'd"
+    },
+    {
+      "id": "bleed"
+    },
+    {
+      "id": "myself"
+    },
+    {
+      "id": "dry"
+    },
+    {
+      "id": "it's"
+    },
+    {
+      "id": "true"
+    },
+    {
+      "id": "that"
+    }
+  ],
+  "links": [
+    {
+      "source": "look",
+      "target": "at",
+      "weight": 0.2
+    },
+    {
+      "source": "look",
+      "target": "how",
+      "weight": 0.8
+    },
+    {
+      "source": "at",
+      "target": "the",
+      "weight": 1.0
+    },
+    {
+      "source": "the",
+      "target": "stars",
+      "weight": 0.5
+    },
+    {
+      "source": "the",
+      "target": "things",
+      "weight": 0.5
+    },
+    {
+      "source": "stars",
+      "target": "look",
+      "weight": 1.0
+    },
+    {
+      "source": "how",
+      "target": "they",
+      "weight": 1.0
+    },
+    {
+      "source": "they",
+      "target": "shine",
+      "weight": 0.888
+    },
+    {
+      "source": "they",
+      "target": "were",
+      "weight": 0.111
+    },
+    {
+      "source": "shine",
+      "target": "for",
+      "weight": 0.875
+    },
+    {
+      "source": "shine",
+      "target": "look",
+      "weight": 0.125
+    },
+    {
+      "source": "for",
+      "target": "you",
+      "weight": 0.916
+    },
+    {
+      "source": "for",
+      "target": "look",
+      "weight": 0.083
+    },
+    {
+      "source": "you",
+      "target": "and",
+      "weight": 0.142
+    },
+    {
+      "source": "you",
+      "target": "do",
+      "weight": 0.142
+    },
+    {
+      "source": "you",
+      "target": "know",
+      "weight": 0.19
+    },
+    {
+      "source": "you",
+      "target": "so",
+      "weight": 0.095
+    },
+    {
+      "source": "you",
+      "target": "oh",
+      "weight": 0.095
+    },
+    {
+      "source": "you",
+      "target": "were",
+      "weight": 0.047
+    },
+    {
+      "source": "you",
+      "target": "i'd",
+      "weight": 0.095
+    },
+    {
+      "source": "you",
+      "target": "look",
+      "weight": 0.19
+    },
+    {
+      "source": "and",
+      "target": "everything",
+      "weight": 0.125
+    },
+    {
+      "source": "and",
+      "target": "all",
+      "weight": 0.25
+    },
+    {
+      "source": "and",
+      "target": "it",
+      "weight": 0.375
+    },
+    {
+      "source": "and",
+      "target": "bones",
+      "weight": 0.25
+    },
+    {
+      "source": "everything",
+      "target": "you",
+      "weight": 1.0
+    },
+    {
+      "source": "do",
+      "target": "yeah",
+      "weight": 0.166
+    },
+    {
+      "source": "do",
+      "target": "and",
+      "weight": 0.333
+    },
+    {
+      "source": "do",
+      "target": "you",
+      "weight": 0.333
+    },
+    {
+      "source": "do",
+      "target": "'cause",
+      "weight": 0.166
+    },
+    {
+      "source": "yeah",
+      "target": "they",
+      "weight": 0.333
+    },
+    {
+      "source": "yeah",
+      "target": "your",
+      "weight": 0.666
+    },
+    {
+      "source": "were",
+      "target": "all",
+      "weight": 1.0
+    },
+    {
+      "source": "all",
+      "target": "yellow",
+      "weight": 0.666
+    },
+    {
+      "source": "all",
+      "target": "the",
+      "weight": 0.333
+    },
+    {
+      "source": "yellow",
+      "target": "i",
+      "weight": 0.4
+    },
+    {
+      "source": "yellow",
+      "target": "so",
+      "weight": 0.2
+    },
+    {
+      "source": "yellow",
+      "target": "your",
+      "weight": 0.4
+    },
+    {
+      "source": "i",
+      "target": "came",
+      "weight": 0.111
+    },
+    {
+      "source": "i",
+      "target": "wrote",
+      "weight": 0.111
+    },
+    {
+      "source": "i",
+      "target": "took",
+      "weight": 0.111
+    },
+    {
+      "source": "i",
+      "target": "love",
+      "weight": 0.222
+    },
+    {
+      "source": "i",
+      "target": "swam",
+      "weight": 0.111
+    },
+    {
+      "source": "i",
+      "target": "jumped",
+      "weight": 0.111
+    },
+    {
+      "source": "i",
+      "target": "drew",
+      "weight": 0.222
+    },
+    {
+      "source": "came",
+      "target": "along",
+      "weight": 1.0
+    },
+    {
+      "source": "along",
+      "target": "i",
+      "weight": 1.0
+    },
+    {
+      "source": "wrote",
+      "target": "a",
+      "weight": 1.0
+    },
+    {
+      "source": "a",
+      "target": "song",
+      "weight": 0.166
+    },
+    {
+      "source": "a",
+      "target": "thing",
+      "weight": 0.5
+    },
+    {
+      "source": "a",
+      "target": "line",
+      "weight": 0.333
+    },
+    {
+      "source": "song",
+      "target": "for",
+      "weight": 1.0
+    },
+    {
+      "source": "things",
+      "target": "you",
+      "weight": 0.5
+    },
+    {
+      "source": "things",
+      "target": "that",
+      "weight": 0.5
+    },
+    {
+      "source": "it",
+      "target": "was",
+      "weight": 1.0
+    },
+    {
+      "source": "was",
+      "target": "called",
+      "weight": 0.333
+    },
+    {
+      "source": "was",
+      "target": "all",
+      "weight": 0.666
+    },
+    {
+      "source": "called",
+      "target": "yellow",
+      "weight": 1.0
+    },
+    {
+      "source": "so",
+      "target": "then",
+      "weight": 0.333
+    },
+    {
+      "source": "so",
+      "target": "you",
+      "weight": 0.333
+    },
+    {
+      "source": "so",
+      "target": "i",
+      "weight": 0.333
+    },
+    {
+      "source": "then",
+      "target": "i",
+      "weight": 1.0
+    },
+    {
+      "source": "took",
+      "target": "my",
+      "weight": 1.0
+    },
+    {
+      "source": "my",
+      "target": "turn",
+      "weight": 1.0
+    },
+    {
+      "source": "turn",
+      "target": "oh",
+      "weight": 0.333
+    },
+    {
+      "source": "turn",
+      "target": "into",
+      "weight": 0.666
+    },
+    {
+      "source": "oh",
+      "target": "what",
+      "weight": 0.6
+    },
+    {
+      "source": "oh",
+      "target": "yeah",
+      "weight": 0.4
+    },
+    {
+      "source": "what",
+      "target": "a",
+      "weight": 1.0
+    },
+    {
+      "source": "thing",
+      "target": "to",
+      "weight": 1.0
+    },
+    {
+      "source": "to",
+      "target": "have",
+      "weight": 0.333
+    },
+    {
+      "source": "to",
+      "target": "do",
+      "weight": 0.666
+    },
+    {
+      "source": "have",
+      "target": "done",
+      "weight": 1.0
+    },
+    {
+      "source": "done",
+      "target": "and",
+      "weight": 1.0
+    },
+    {
+      "source": "your",
+      "target": "skin",
+      "weight": 1.0
+    },
+    {
+      "source": "skin",
+      "target": "oh",
+      "weight": 0.5
+    },
+    {
+      "source": "skin",
+      "target": "and",
+      "weight": 0.5
+    },
+    {
+      "source": "bones",
+      "target": "turn",
+      "weight": 1.0
+    },
+    {
+      "source": "into",
+      "target": "something",
+      "weight": 1.0
+    },
+    {
+      "source": "something",
+      "target": "beautiful",
+      "weight": 1.0
+    },
+    {
+      "source": "beautiful",
+      "target": "do",
+      "weight": 1.0
+    },
+    {
+      "source": "know",
+      "target": "you",
+      "weight": 0.25
+    },
+    {
+      "source": "know",
+      "target": "i",
+      "weight": 0.5
+    },
+    {
+      "source": "know",
+      "target": "for",
+      "weight": 0.25
+    },
+    {
+      "source": "love",
+      "target": "you",
+      "weight": 1.0
+    },
+    {
+      "source": "swam",
+      "target": "across",
+      "weight": 1.0
+    },
+    {
+      "source": "across",
+      "target": "i",
+      "weight": 0.5
+    },
+    {
+      "source": "across",
+      "target": "for",
+      "weight": 0.5
+    },
+    {
+      "source": "jumped",
+      "target": "across",
+      "weight": 1.0
+    },
+    {
+      "source": "'cause",
+      "target": "you",
+      "weight": 1.0
+    },
+    {
+      "source": "drew",
+      "target": "a",
+      "weight": 1.0
+    },
+    {
+      "source": "line",
+      "target": "i",
+      "weight": 0.5
+    },
+    {
+      "source": "line",
+      "target": "for",
+      "weight": 0.5
+    },
+    {
+      "source": "i'd",
+      "target": "bleed",
+      "weight": 1.0
+    },
+    {
+      "source": "bleed",
+      "target": "myself",
+      "weight": 1.0
+    },
+    {
+      "source": "myself",
+      "target": "dry",
+      "weight": 1.0
+    },
+    {
+      "source": "dry",
+      "target": "for",
+      "weight": 0.5
+    },
+    {
+      "source": "dry",
+      "target": "it's",
+      "weight": 0.5
+    },
+    {
+      "source": "it's",
+      "target": "true",
+      "weight": 1.0
+    },
+    {
+      "source": "true",
+      "target": "look",
+      "weight": 1.0
+    },
+    {
+      "source": "that",
+      "target": "you",
+      "weight": 1.0
+    }
+  ]
 }
