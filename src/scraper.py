@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 import re
 
 def clean(word):
-    bad_chars = [' ', '(', ')', '[', ']']
-    for char in bad_chars:
+    blacklist = [' ', '(', ')', '[', ']', '/', '.', '\'', '&']
+    for char in blacklist:
         word = word.replace(char,'')
     word = word.lower()
     
@@ -20,9 +20,20 @@ def parse(song, artist):
  
     req = requests.get(URL)
     soup = BeautifulSoup(req.content, 'html.parser')
+
+    # AZ Lyrics does not have a special id/class for their lyrics container, so we have to parse all text first
     text = soup.get_text().splitlines()
 
     title = song.title().strip()
+
+    # the layout of AZ Lyrics pages is as follows (lines represent arbitrary text)
+    # ______________
+    # ______________
+    # "[song title]"      <- since the user provides the title, we can use this as the start point
+    # [lyrics]
+    # Submit Corrections      <- this is always the first non-empty line after the lyrics, use as end point
+    # ______________
+    # ______________
 
     start_pattern = '\"' + title + '\"'
     start_idx = None
@@ -31,16 +42,16 @@ def parse(song, artist):
     end_idx = None
 
     for idx, line in enumerate(text):
-        start_match = re.search("^%s$" % start_pattern, line)
-        if start_match:
-            start_idx = idx
+        if start_pattern == line:   # use == instead of regex to avoid issues w/ parens/brackets in the song title 
+                                    # (more efficent than escaping all diff possibilities)
 
-        end_match = re.search("%s" % end_pattern, line)
+            start_idx = idx + 2     # add 2 because 1) we dont include the title in the lyrics 
+                                    #           and 2) because of a a possible 'feat. ___' (will be a blank line if no feat)
+
+        end_match = re.search('%s' % end_pattern, line)
         if end_match:
             end_idx = idx
             break
-
-    print(start_idx)
 
     lyrics = text[start_idx:end_idx]
 
@@ -49,8 +60,5 @@ def parse(song, artist):
 
     # remove non-lyric lines in-place
     lyrics[:] = [x for x in lyrics if x[0] != '[']
-
-    # for lyric in lyrics:
-    #    print(lyric)
 
     return lyrics

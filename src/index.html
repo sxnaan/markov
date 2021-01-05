@@ -1,82 +1,140 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<canvas width="1400" height="800"></canvas>
-<script src="https://d3js.org/d3.v4.min.js"></script>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://use.typekit.net/tft4kzv.css">
+  <meta charset="utf-8">
+<title>D3.js Markov Chain Visualization</title>
+<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <h3>Pursuit of Happiness | <span id = "artist">Kid Cudi (feat. MGMT, Ratatat)</span></h3>
+    <div id = "container"></div>
+</body>
+</html>
+
+<style>
+    .nodelabel {
+      font-family: futura-pt;
+      font-size: small;
+    }
+
+    h3{
+        font-family: futura-pt;
+        text-align: center;
+    }
+
+    #artist {
+        font-weight: 300;
+    }
+
+    #container {
+        width: auto;
+        height: auto;
+    }
+
+</style>
+
+
 <script>
 
-var canvas = document.querySelector("canvas"),
-    context = canvas.getContext("2d"),
-    width = canvas.width,
-    height = canvas.height;
+const w = 1800;
+const h = 900;
+const linkDistance=50;
 
-var simulation = d3.forceSimulation()
-    .force("link", d3.forceLink().id(function(d) { return d.id; }))
-    .force("charge", d3.forceManyBody())
-    .force("center", d3.forceCenter(width / 2, height / 2));
+var colors = d3.scale.category20();
 
-d3.json("https://raw.githubusercontent.com/sxnaan/markov/main/src/data.json", function(error, graph) {
-  if (error) throw error;
+// use the public github file instead of local file to get around Chrome blocking CORS/XMLHttp (without an extension)
+d3.json("https://raw.githubusercontent.com/sxnaan/markov/src/data.json", function (dataset) {
+    var svg = d3.select("#container").append("svg").attr({"width":w,"height":h});
 
-  simulation
-      .nodes(graph.nodes)
-      .on("tick", ticked);
+    var force = d3.layout.force()
+    .nodes(dataset.nodes)
+    .links(dataset.edges)
+    .size([w,h])
+    .linkDistance([linkDistance])
+    .charge([-500])
+    .theta(0.1)
+    .gravity(0.1)
+    .start();
 
-  simulation.force("link")
-      .links(graph.links);
+    var edges = svg.selectAll("line")
+    .data(dataset.edges)
+    .enter()
+    .append("line")
+    .attr("id",function(d,i) {return 'edge'+i})
+    .attr('marker-end','url(#arrowhead)')
+    .style("stroke","#ccc")
+    .style("pointer-events", "none");
 
-  d3.select(canvas)
-      .call(d3.drag()
-          .container(canvas)
-          .subject(dragsubject)
-          .on("start", dragstarted)
-          .on("drag", dragged)
-          .on("end", dragended));
+    var edgepaths = svg.selectAll(".edgepath")
+    .data(dataset.edges)
+    .enter()
+    .append('path')
+    .attr({'d': function(d) {return 'M '+d.source.x+' '+d.source.y+' L '+ d.target.x +' '+d.target.y},
+            'class':'edgepath',
+            'fill-opacity':0,
+            'stroke-opacity':0.4,
+            'fill':'blue',
+            'stroke':'grey',
+            'stroke-width':function(d) {return String(d.weight*5).concat('px')},})
+    .style("pointer-events", "none");
 
-  function ticked() {
-    context.clearRect(0, 0, width, height);
+    var nodes = svg.selectAll("circle")
+    .data(dataset.nodes)
+    .enter()
+    .append("circle")
+    .attr({"r":10})
+    .style("fill",function(d,i){return colors(i);})
+    .call(force.drag)
 
-    context.beginPath();
-    graph.links.forEach(drawLink);
-    context.strokeStyle = "#aaa";
-    context.stroke();
+    var nodelabels = svg.selectAll(".nodelabel") 
+    .data(dataset.nodes)
+    .enter()
+    .append("text")
+    .attr({"x":function(d){return d.x;},
+            "y":function(d){return d.y;},
+            "class":"nodelabel",
+            "stroke":"black",
+            "stroke-width":'.7px'})
+    .text(function(d){return d.word;});
 
-    context.beginPath();
-    graph.nodes.forEach(drawNode);
-    context.fill();
-    context.strokeStyle = "#fff";
-    context.stroke();
-  }
+    svg.append('defs').append('marker')
+        .attr({'id':'arrowhead',
+            'viewBox':'-0 -5 10 10',
+            'refX':20,
+            'refY':0,
+            //'markerUnits':'strokeWidth',
+            'orient':'auto',
+            'markerWidth':10,
+            'markerHeight':10,
+            'xoverflow':'visible'})
+        .append('svg:path')
+            .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
+            .attr('fill', '#ccc')
+            .attr('stroke','#ccc');
+    
 
-  function dragsubject() {
-    return simulation.find(d3.event.x, d3.event.y);
-  }
+        force.on("tick", function(){
+
+            edges.attr({"x1": function(d){return d.source.x;},
+                        "y1": function(d){return d.source.y;},
+                        "x2": function(d){return d.target.x;},
+                        "y2": function(d){return d.target.y;}
+            });
+
+            nodes.attr({"cx":function(d){return d.x;},
+                        "cy":function(d){return d.y;}
+            });
+
+            nodelabels.attr("x", function(d) { return d.x; }) 
+                    .attr("y", function(d) { return d.y; });
+
+            edgepaths.attr('d', function(d) { var path='M '+d.source.x+' '+d.source.y+' L '+ d.target.x +' '+d.target.y;
+                                            //console.log(d)
+                                            return path});        
+        });
+
 });
-
-function dragstarted() {
-  if (!d3.event.active) simulation.alphaTarget(0.3).restart();
-  d3.event.subject.fx = d3.event.subject.x;
-  d3.event.subject.fy = d3.event.subject.y;
-}
-
-function dragged() {
-  d3.event.subject.fx = d3.event.x;
-  d3.event.subject.fy = d3.event.y;
-}
-
-function dragended() {
-  if (!d3.event.active) simulation.alphaTarget(0);
-  d3.event.subject.fx = null;
-  d3.event.subject.fy = null;
-}
-
-function drawLink(d) {
-  context.moveTo(d.source.x, d.source.y);
-  context.lineTo(d.target.x, d.target.y);
-}
-
-function drawNode(d) {
-  context.moveTo(d.x + 3, d.y);
-  context.arc(d.x, d.y, 3, 0, 2 * Math.PI);
-}
 
 </script>

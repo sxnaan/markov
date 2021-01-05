@@ -1,9 +1,6 @@
-import networkx as nx
-import matplotlib.pyplot as plt
-import json
-
 import markov
 import scraper
+import json_generator
 
 def main():
     
@@ -12,39 +9,12 @@ def main():
 
     lyrics = scraper.parse(song, artist)
     mc = markov.build_mkch(lyrics)
+    json_generator.build_json(mc)
+
+    # this list is a text-based visualization of the markov chain (adjacency list)
+    # each node is listed with all the words it links to, along with `the 'probability'
+    # that a word in the edge-list follows the node
     
-    # stuff for json
-    data = {}
-    nodes = []
-    links = []
-
-    # stuff for networkx
-    # node_labels = {}
-    # for key in mc.keys():
-    #    node_labels[key] = key
-    # e_labels = {}
-
-    # build graph from adj list, also populate nodes and links for json
-    
-    # G = nx.DiGraph()
-    for source, dests in mc.items():
-        nodes.append({'id': source})
-        for dest, wt in mc[source].items():
-            # G.add_edge(source, dest, weight=wt)
-            # e_labels[(source, dest)] = wt
-            links.append({'source': source, 'target': dest, 'weight': wt})
-
-    data['nodes'] = nodes
-    data['links'] = links
-
-    with open('data.json', 'w') as outfile:
-        json.dump(data, outfile, indent = 4)
-
     markov.print_mkch(mc)
-
-    # nx.draw(G)
-    # nx.draw_networkx_labels(G, pos=nx.spring_layout(G), labels=node_labels)
-    # nx.draw_networkx_edge_labels(G, pos=nx.spring_layout(G), edge_labels=e_labels)
-    # plt.show()
 
 main()
