@@ -45,7 +45,7 @@ const linkDistance=50;
 var colors = d3.scale.category20();
 
 // use the public github file instead of local file to get around Chrome blocking CORS/XMLHttp (without an extension)
-d3.json("https://raw.githubusercontent.com/sxnaan/markov/src/data.json", function (dataset) {
+d3.json("https://raw.githubusercontent.com/sxnaan/markov/main/src/data.json", function (dataset) {
     var svg = d3.select("#container").append("svg").attr({"width":w,"height":h});
 
     var force = d3.layout.force()
