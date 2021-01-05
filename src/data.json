@@ -1,684 +1,742 @@
 {
   "nodes": [
     {
-      "id": "look"
+      "word": "look",
+      "id": 0
     },
     {
-      "id": "at"
+      "word": "at",
+      "id": 1
     },
     {
-      "id": "the"
+      "word": "the",
+      "id": 2
     },
     {
-      "id": "stars"
+      "word": "stars",
+      "id": 3
     },
     {
-      "id": "how"
+      "word": "how",
+      "id": 4
     },
     {
-      "id": "they"
+      "word": "they",
+      "id": 5
     },
     {
-      "id": "shine"
+      "word": "shine",
+      "id": 6
     },
     {
-      "id": "for"
+      "word": "for",
+      "id": 7
     },
     {
-      "id": "you"
+      "word": "you",
+      "id": 8
     },
     {
-      "id": "and"
+      "word": "and",
+      "id": 9
     },
     {
-      "id": "everything"
+      "word": "everything",
+      "id": 10
     },
     {
-      "id": "do"
+      "word": "do",
+      "id": 11
     },
     {
-      "id": "yeah"
+      "word": "yeah",
+      "id": 12
     },
     {
-      "id": "were"
+      "word": "were",
+      "id": 13
     },
     {
-      "id": "all"
+      "word": "all",
+      "id": 14
     },
     {
-      "id": "yellow"
+      "word": "yellow",
+      "id": 15
     },
     {
-      "id": "i"
+      "word": "i",
+      "id": 16
     },
     {
-      "id": "came"
+      "word": "came",
+      "id": 17
     },
     {
-      "id": "along"
+      "word": "along",
+      "id": 18
     },
     {
-      "id": "wrote"
+      "word": "wrote",
+      "id": 19
     },
     {
-      "id": "a"
+      "word": "a",
+      "id": 20
     },
     {
-      "id": "song"
+      "word": "song",
+      "id": 21
     },
     {
-      "id": "things"
+      "word": "things",
+      "id": 22
     },
     {
-      "id": "it"
+      "word": "it",
+      "id": 23
     },
     {
-      "id": "was"
+      "word": "was",
+      "id": 24
     },
     {
-      "id": "called"
+      "word": "called",
+      "id": 25
     },
     {
-      "id": "so"
+      "word": "so",
+      "id": 26
     },
     {
-      "id": "then"
+      "word": "then",
+      "id": 27
     },
     {
-      "id": "took"
+      "word": "took",
+      "id": 28
     },
     {
-      "id": "my"
+      "word": "my",
+      "id": 29
     },
     {
-      "id": "turn"
+      "word": "turn",
+      "id": 30
     },
     {
-      "id": "oh"
+      "word": "oh",
+      "id": 31
     },
     {
-      "id": "what"
+      "word": "what",
+      "id": 32
     },
     {
-      "id": "thing"
+      "word": "thing",
+      "id": 33
     },
     {
-      "id": "to"
+      "word": "to",
+      "id": 34
     },
     {
-      "id": "have"
+      "word": "have",
+      "id": 35
     },
     {
-      "id": "done"
+      "word": "done",
+      "id": 36
     },
     {
-      "id": "your"
+      "word": "your",
+      "id": 37
     },
     {
-      "id": "skin"
+      "word": "skin",
+      "id": 38
     },
     {
-      "id": "bones"
+      "word": "bones",
+      "id": 39
     },
     {
-      "id": "into"
+      "word": "into",
+      "id": 40
     },
     {
-      "id": "something"
+      "word": "something",
+      "id": 41
     },
     {
-      "id": "beautiful"
+      "word": "beautiful",
+      "id": 42
     },
     {
-      "id": "know"
+      "word": "know",
+      "id": 43
     },
     {
-      "id": "love"
+      "word": "love",
+      "id": 44
     },
     {
-      "id": "swam"
+      "word": "swam",
+      "id": 45
     },
     {
-      "id": "across"
+      "word": "across",
+      "id": 46
     },
     {
-      "id": "jumped"
+      "word": "jumped",
+      "id": 47
     },
     {
-      "id": "'cause"
+      "word": "'cause",
+      "id": 48
     },
     {
-      "id": "drew"
+      "word": "drew",
+      "id": 49
     },
     {
-      "id": "line"
+      "word": "line",
+      "id": 50
     },
     {
-      "id": "i'd"
+      "word": "i'd",
+      "id": 51
     },
     {
-      "id": "bleed"
+      "word": "bleed",
+      "id": 52
     },
     {
-      "id": "myself"
+      "word": "myself",
+      "id": 53
     },
     {
-      "id": "dry"
+      "word": "dry",
+      "id": 54
     },
     {
-      "id": "it's"
+      "word": "it's",
+      "id": 55
     },
     {
-      "id": "true"
+      "word": "true",
+      "id": 56
     },
     {
-      "id": "that"
+      "word": "that",
+      "id": 57
     }
   ],
-  "links": [
+  "edges": [
     {
-      "source": "look",
-      "target": "at",
+      "source": 0,
+      "target": 1,
       "weight": 0.2
     },
     {
-      "source": "look",
-      "target": "how",
+      "source": 0,
+      "target": 4,
       "weight": 0.8
     },
     {
-      "source": "at",
-      "target": "the",
+      "source": 1,
+      "target": 2,
       "weight": 1.0
     },
     {
-      "source": "the",
-      "target": "stars",
+      "source": 2,
+      "target": 3,
       "weight": 0.5
     },
     {
-      "source": "the",
-      "target": "things",
+      "source": 2,
+      "target": 22,
       "weight": 0.5
     },
     {
-      "source": "stars",
-      "target": "look",
+      "source": 3,
+      "target": 0,
       "weight": 1.0
     },
     {
-      "source": "how",
-      "target": "they",
+      "source": 4,
+      "target": 5,
       "weight": 1.0
     },
     {
-      "source": "they",
-      "target": "shine",
+      "source": 5,
+      "target": 6,
       "weight": 0.888
     },
     {
-      "source": "they",
-      "target": "were",
+      "source": 5,
+      "target": 13,
       "weight": 0.111
     },
     {
-      "source": "shine",
-      "target": "for",
+      "source": 6,
+      "target": 7,
       "weight": 0.875
     },
     {
-      "source": "shine",
-      "target": "look",
+      "source": 6,
+      "target": 0,
       "weight": 0.125
     },
     {
-      "source": "for",
-      "target": "you",
+      "source": 7,
+      "target": 8,
       "weight": 0.916
     },
     {
-      "source": "for",
-      "target": "look",
+      "source": 7,
+      "target": 0,
       "weight": 0.083
     },
     {
-      "source": "you",
-      "target": "and",
+      "source": 8,
+      "target": 9,
       "weight": 0.142
     },
     {
-      "source": "you",
-      "target": "do",
+      "source": 8,
+      "target": 11,
       "weight": 0.142
     },
     {
-      "source": "you",
-      "target": "know",
+      "source": 8,
+      "target": 43,
       "weight": 0.19
     },
     {
-      "source": "you",
-      "target": "so",
+      "source": 8,
+      "target": 26,
       "weight": 0.095
     },
     {
-      "source": "you",
-      "target": "oh",
+      "source": 8,
+      "target": 31,
       "weight": 0.095
     },
     {
-      "source": "you",
-      "target": "were",
+      "source": 8,
+      "target": 13,
       "weight": 0.047
     },
     {
-      "source": "you",
-      "target": "i'd",
+      "source": 8,
+      "target": 51,
       "weight": 0.095
     },
     {
-      "source": "you",
-      "target": "look",
+      "source": 8,
+      "target": 0,
       "weight": 0.19
     },
     {
-      "source": "and",
-      "target": "everything",
+      "source": 9,
+      "target": 10,
       "weight": 0.125
     },
     {
-      "source": "and",
-      "target": "all",
+      "source": 9,
+      "target": 14,
       "weight": 0.25
     },
     {
-      "source": "and",
-      "target": "it",
+      "source": 9,
+      "target": 23,
       "weight": 0.375
     },
     {
-      "source": "and",
-      "target": "bones",
+      "source": 9,
+      "target": 39,
       "weight": 0.25
     },
     {
-      "source": "everything",
-      "target": "you",
+      "source": 10,
+      "target": 8,
       "weight": 1.0
     },
     {
-      "source": "do",
-      "target": "yeah",
+      "source": 11,
+      "target": 12,
       "weight": 0.166
     },
     {
-      "source": "do",
-      "target": "and",
+      "source": 11,
+      "target": 9,
       "weight": 0.333
     },
     {
-      "source": "do",
-      "target": "you",
+      "source": 11,
+      "target": 8,
       "weight": 0.333
     },
     {
-      "source": "do",
-      "target": "'cause",
+      "source": 11,
+      "target": 48,
       "weight": 0.166
     },
     {
-      "source": "yeah",
-      "target": "they",
+      "source": 12,
+      "target": 5,
       "weight": 0.333
     },
     {
-      "source": "yeah",
-      "target": "your",
+      "source": 12,
+      "target": 37,
       "weight": 0.666
     },
     {
-      "source": "were",
-      "target": "all",
+      "source": 13,
+      "target": 14,
       "weight": 1.0
     },
     {
-      "source": "all",
-      "target": "yellow",
+      "source": 14,
+      "target": 15,
       "weight": 0.666
     },
     {
-      "source": "all",
-      "target": "the",
+      "source": 14,
+      "target": 2,
       "weight": 0.333
     },
     {
-      "source": "yellow",
-      "target": "i",
+      "source": 15,
+      "target": 16,
       "weight": 0.4
     },
     {
-      "source": "yellow",
-      "target": "so",
+      "source": 15,
+      "target": 26,
       "weight": 0.2
     },
     {
-      "source": "yellow",
-      "target": "your",
+      "source": 15,
+      "target": 37,
       "weight": 0.4
     },
     {
-      "source": "i",
-      "target": "came",
+      "source": 16,
+      "target": 17,
       "weight": 0.111
     },
     {
-      "source": "i",
-      "target": "wrote",
+      "source": 16,
+      "target": 19,
       "weight": 0.111
     },
     {
-      "source": "i",
-      "target": "took",
+      "source": 16,
+      "target": 28,
       "weight": 0.111
     },
     {
-      "source": "i",
-      "target": "love",
+      "source": 16,
+      "target": 44,
       "weight": 0.222
     },
     {
-      "source": "i",
-      "target": "swam",
+      "source": 16,
+      "target": 45,
       "weight": 0.111
     },
     {
-      "source": "i",
-      "target": "jumped",
+      "source": 16,
+      "target": 47,
       "weight": 0.111
     },
     {
-      "source": "i",
-      "target": "drew",
+      "source": 16,
+      "target": 49,
       "weight": 0.222
     },
     {
-      "source": "came",
-      "target": "along",
+      "source": 17,
+      "target": 18,
       "weight": 1.0
     },
     {
-      "source": "along",
-      "target": "i",
+      "source": 18,
+      "target": 16,
       "weight": 1.0
     },
     {
-      "source": "wrote",
-      "target": "a",
+      "source": 19,
+      "target": 20,
       "weight": 1.0
     },
     {
-      "source": "a",
-      "target": "song",
+      "source": 20,
+      "target": 21,
       "weight": 0.166
     },
     {
-      "source": "a",
-      "target": "thing",
+      "source": 20,
+      "target": 33,
       "weight": 0.5
     },
     {
-      "source": "a",
-      "target": "line",
+      "source": 20,
+      "target": 50,
       "weight": 0.333
     },
     {
-      "source": "song",
-      "target": "for",
+      "source": 21,
+      "target": 7,
       "weight": 1.0
     },
     {
-      "source": "things",
-      "target": "you",
+      "source": 22,
+      "target": 8,
       "weight": 0.5
     },
     {
-      "source": "things",
-      "target": "that",
+      "source": 22,
+      "target": 57,
       "weight": 0.5
     },
     {
-      "source": "it",
-      "target": "was",
+      "source": 23,
+      "target": 24,
       "weight": 1.0
     },
     {
-      "source": "was",
-      "target": "called",
+      "source": 24,
+      "target": 25,
       "weight": 0.333
     },
     {
-      "source": "was",
-      "target": "all",
+      "source": 24,
+      "target": 14,
       "weight": 0.666
     },
     {
-      "source": "called",
-      "target": "yellow",
+      "source": 25,
+      "target": 15,
       "weight": 1.0
     },
     {
-      "source": "so",
-      "target": "then",
+      "source": 26,
+      "target": 27,
       "weight": 0.333
     },
     {
-      "source": "so",
-      "target": "you",
+      "source": 26,
+      "target": 8,
       "weight": 0.333
     },
     {
-      "source": "so",
-      "target": "i",
+      "source": 26,
+      "target": 16,
       "weight": 0.333
     },
     {
-      "source": "then",
-      "target": "i",
+      "source": 27,
+      "target": 16,
       "weight": 1.0
     },
     {
-      "source": "took",
-      "target": "my",
+      "source": 28,
+      "target": 29,
       "weight": 1.0
     },
     {
-      "source": "my",
-      "target": "turn",
+      "source": 29,
+      "target": 30,
       "weight": 1.0
     },
     {
-      "source": "turn",
-      "target": "oh",
+      "source": 30,
+      "target": 31,
       "weight": 0.333
     },
     {
-      "source": "turn",
-      "target": "into",
+      "source": 30,
+      "target": 40,
       "weight": 0.666
     },
     {
-      "source": "oh",
-      "target": "what",
+      "source": 31,
+      "target": 32,
       "weight": 0.6
     },
     {
-      "source": "oh",
-      "target": "yeah",
+      "source": 31,
+      "target": 12,
       "weight": 0.4
     },
     {
-      "source": "what",
-      "target": "a",
+      "source": 32,
+      "target": 20,
       "weight": 1.0
     },
     {
-      "source": "thing",
-      "target": "to",
+      "source": 33,
+      "target": 34,
       "weight": 1.0
     },
     {
-      "source": "to",
-      "target": "have",
+      "source": 34,
+      "target": 35,
       "weight": 0.333
     },
     {
-      "source": "to",
-      "target": "do",
+      "source": 34,
+      "target": 11,
       "weight": 0.666
     },
     {
-      "source": "have",
-      "target": "done",
+      "source": 35,
+      "target": 36,
       "weight": 1.0
     },
     {
-      "source": "done",
-      "target": "and",
+      "source": 36,
+      "target": 9,
       "weight": 1.0
     },
     {
-      "source": "your",
-      "target": "skin",
+      "source": 37,
+      "target": 38,
       "weight": 1.0
     },
     {
-      "source": "skin",
-      "target": "oh",
+      "source": 38,
+      "target": 31,
       "weight": 0.5
     },
     {
-      "source": "skin",
-      "target": "and",
+      "source": 38,
+      "target": 9,
       "weight": 0.5
     },
     {
-      "source": "bones",
-      "target": "turn",
+      "source": 39,
+      "target": 30,
       "weight": 1.0
     },
     {
-      "source": "into",
-      "target": "something",
+      "source": 40,
+      "target": 41,
       "weight": 1.0
     },
     {
-      "source": "something",
-      "target": "beautiful",
+      "source": 41,
+      "target": 42,
       "weight": 1.0
     },
     {
-      "source": "beautiful",
-      "target": "do",
+      "source": 42,
+      "target": 11,
       "weight": 1.0
     },
     {
-      "source": "know",
-      "target": "you",
+      "source": 43,
+      "target": 8,
       "weight": 0.25
     },
     {
-      "source": "know",
-      "target": "i",
+      "source": 43,
+      "target": 16,
       "weight": 0.5
     },
     {
-      "source": "know",
-      "target": "for",
+      "source": 43,
+      "target": 7,
       "weight": 0.25
     },
     {
-      "source": "love",
-      "target": "you",
+      "source": 44,
+      "target": 8,
       "weight": 1.0
     },
     {
-      "source": "swam",
-      "target": "across",
+      "source": 45,
+      "target": 46,
       "weight": 1.0
     },
     {
-      "source": "across",
-      "target": "i",
+      "source": 46,
+      "target": 16,
       "weight": 0.5
     },
     {
-      "source": "across",
-      "target": "for",
+      "source": 46,
+      "target": 7,
       "weight": 0.5
     },
     {
-      "source": "jumped",
-      "target": "across",
+      "source": 47,
+      "target": 46,
       "weight": 1.0
     },
     {
-      "source": "'cause",
-      "target": "you",
+      "source": 48,
+      "target": 8,
       "weight": 1.0
     },
     {
-      "source": "drew",
-      "target": "a",
+      "source": 49,
+      "target": 20,
       "weight": 1.0
     },
     {
-      "source": "line",
-      "target": "i",
+      "source": 50,
+      "target": 16,
       "weight": 0.5
     },
     {
-      "source": "line",
-      "target": "for",
+      "source": 50,
+      "target": 7,
       "weight": 0.5
     },
     {
-      "source": "i'd",
-      "target": "bleed",
+      "source": 51,
+      "target": 52,
       "weight": 1.0
     },
     {
-      "source": "bleed",
-      "target": "myself",
+      "source": 52,
+      "target": 53,
       "weight": 1.0
     },
     {
-      "source": "myself",
-      "target": "dry",
+      "source": 53,
+      "target": 54,
       "weight": 1.0
     },
     {
-      "source": "dry",
-      "target": "for",
+      "source": 54,
+      "target": 7,
       "weight": 0.5
     },
     {
-      "source": "dry",
-      "target": "it's",
+      "source": 54,
+      "target": 55,
       "weight": 0.5
     },
     {
-      "source": "it's",
-      "target": "true",
+      "source": 55,
+      "target": 56,
       "weight": 1.0
     },
     {
-      "source": "true",
-      "target": "look",
+      "source": 56,
+      "target": 0,
       "weight": 1.0
     },
     {
-      "source": "that",
-      "target": "you",
+      "source": 57,
+      "target": 8,
       "weight": 1.0
     }
   ]
