@@ -32,7 +32,7 @@ This project bridges the gap between the two disciplines in a visual manner, uni
 
 5. `markov.py` | With the lyrics in an array (each word is one element), process them and build the Markov chain (weighted, directed graph) using the following definitions & algorithm:
     - **Nodes:** Unique words in the lyrics
-    - **Edges:**  Links between two words that appear next to each other in the song (`source` is the first word, `target` is the one immediately following it)
+    - **Edges:**  Links between any two words that appear next to each other in the song (`source` is the first of the two words, `target` is the one immediately following it)
     - **Weights:** The probability* that `source` will be followed by `target` at any occurance of `source` in the song
 > **Algorithm**
 > 1. Process the words two by two -- at each iteration keep track of the current word, as well as the word that follows. 
@@ -41,7 +41,7 @@ This project bridges the gap between the two disciplines in a visual manner, uni
 > 4. Else, the next word is already in current word's edge list, so incrememnt the weight by 1
 > 5. Normalize the weights to change them from counts to probabilities* by dividing each edge-weight by the sum of total weights for its source node's edge list)
 
-    * Note, these aren't exactly probabilities -- if we could see the entire lyrics, we'd know that the probability of a certain word following another is either 0 or 1 (either it follows or it doesn't); but the fundamental idea of a Markov chain is that a transition from state A to state B is only analyzed in the context of the current state (A). All other states (previous/following lyrics in our case) are irrelevant.
+    * Note, these aren't exactly probabilities -- if we could see the entire lyrics, we'd know that the probability of a certain word following another is either 0 or 1 (either it follows or it doesn't); but the fundamental idea of a Markov chain is that a transition from state A to state B is only dependent on the current state (A). All other states (previous/following lyrics in our case) are irrelevant.
 
 6. `json_generator.py` | Extract the nodes and edges from the graph’s adjacency list representation; write this data to a JSON file (`data.json`) 
 
