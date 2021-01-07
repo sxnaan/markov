@@ -51,7 +51,7 @@ This project bridges the gap between the two disciplines in a visual manner, uni
 ## Demos 
 - You can find demos of 6 songs in `markov/demos/` in `.gif` and `.mp4` format, similar to the gif of Sweater Weather at the top of this file
 
-- I'll be adding live interactive demos on https://observablehq.com/ soon!
+- Check out https://sxnaan.github.io/markov/ for a live, interactive demo of Coldplay's "Yellow"
 
 ---
 ## Usage
