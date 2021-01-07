@@ -1,16 +1,9 @@
 import math
+import re
 
 def truncate(num, digits):
     stepper = 10.0 ** digits
     return math.trunc(stepper * num) / stepper
-
-def clean(word):
-    bad_chars = ['“', '”', '"', '.', '!', '?', ',', ';', '(', ')']
-    for char in bad_chars:
-        word = word.replace(char,'')
-    word = word.lower()
-    
-    return word
 
 def normalize_weights(mkch):
     mc = mkch.copy()
@@ -28,36 +21,22 @@ def normalize_weights(mkch):
 
     return mc
 
-def build_mkch(lines):
+def build_mkch(words):
 
     mc = {}     # treat graph as adj list stored as a dict: {source_word -> {target_word -> weight}}
 
-    for i, line in enumerate(lines):    
-        words = line.split()            
-        for j, word in enumerate(words):
-            curr = clean(word)
-            
-            if len(curr) == 0:
-                continue 
+    for i, curr in enumerate(words):
+        next = None if i == len(words) - 1 else words[i+1] 
+        if next:
+            if curr not in mc:
+                mc[curr] = {}       # add curr word to the graph 
+            if next not in mc:
+                mc[next] = {}       # add next word to the graph
 
-            next = None
-            if j == len(words) - 1 and i != len(lines) - 1:     # next word is first word of next line, skip if line is blank:
-                temp_words = lines[i+1].split() 
-                next = clean(temp_words[0])
+            if next not in mc[curr]:     # if the next word isn't in the current word's adj list yet
+                mc[curr][next] = 1
             else:
-                # get next word as expected, unless we're at the end
-                next = None if (j == len(words) - 1) else clean(words[j+1])
-            
-            if next != None and len(next) > 0:
-                if curr not in mc:
-                    mc[curr] = {}       # add curr word to the graph 
-                if next not in mc:
-                    mc[next] = {}       # add next word to the graph
-
-                if next not in mc[curr]:     # if the next word isn't in the current word's adj list yet
-                    mc[curr][next] = 1
-                else:
-                    mc[curr][next] += 1
+                mc[curr][next] += 1
 
     mc = normalize_weights(mc)
     return mc

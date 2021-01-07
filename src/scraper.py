@@ -2,18 +2,10 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-def clean(word):
-    blacklist = [' ', '(', ')', '[', ']', '/', '.', '\'', '&']
-    for char in blacklist:
-        word = word.replace(char,'')
-    word = word.lower()
-    
-    return word
-
 def parse(song, artist):
     PATH = 'https://www.azlyrics.com/lyrics/'
 
-    song_url = clean(song)
+    song_url = re.sub('[^A-Za-z0-9]+', '', song).lower()
     artist_url = artist.replace(' ', '').lower()
 
     URL = PATH + artist_url + '/' + song_url + '.html'
@@ -58,7 +50,17 @@ def parse(song, artist):
     # remove blank lines in-place
     lyrics[:] = [x for x in lyrics if x != '']
 
-    # remove non-lyric lines in-place
+    # remove non-lyric lines in-place (usually artist tags)
     lyrics[:] = [x for x in lyrics if x[0] != '[']
 
-    return lyrics
+    # change lyrics from an array of lines to an array of words
+    new_lyrics = []
+
+    # go through lyrics and clean them -> remove special chars
+    for line in lyrics:
+        words = line.split()
+        for word in words:
+            new_word = re.sub('[^A-Za-z0-9]+', '', word).lower()
+            new_lyrics.append(new_word)
+
+    return new_lyrics
