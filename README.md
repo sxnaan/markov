@@ -1,7 +1,7 @@
 # My Beautiful Dark Twisted Markov Chain (MBDTMC)*
 `version 0.1.0 | Sinaan Younus`
 
-![altcode](https://github.com/sxnaan/markov/blob/main/demos/gif/sweaterweather-theneighbourhood.gif?raw=true)
+![Sweater Weather Markov Chain](https://github.com/sxnaan/markov/blob/main/demos/gif/sweaterweather-theneighbourhood.gif?raw=true)
 
 ---
 ## Background
@@ -49,17 +49,17 @@ This project bridges the gap between the two disciplines in a visual manner, uni
 
 ---
 ## Demos 
-- You can find demos of 6 songs in `markov/demos/` in `.gif` and `.mp4` format, similar to the gif of Sweater Weather at the top of this file
+- You can find demos of 6 songs in `/demos` in `.gif` and `.mp4` format, similar to the gif of Sweater Weather at the top of this file
 
 - Check out https://sxnaan.github.io/markov/ for a live, interactive demo of Coldplay's "Yellow"
 
 ---
 ## Usage
 - If you want to create a visualization of your favorite song, follow these steps:
-    1. Download the `/src` and `/d3` folders
+    1. Download the `/src`, `/docs`, and `/d3` folders
     2. Run `driver.py`, type in the song & artist name as prompted
     3. This will automatically populate `index.json` with the nodes/edges of your song's Markov chain
-    4. Depending on your browser's CORS settings, you might not be able to see the graph when you save and open 'index/html'
+    4. Depending on your browser's CORS settings, you might not be able to see the graph when you save and open 'docs/index.html'
         - If this is the case, publish your JSON file somehwhere online, and update `line 50` of `index.html` with that path 
     5. Done! Drag, zoom, enjoy!
 
