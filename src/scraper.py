@@ -47,11 +47,8 @@ def parse(song, artist):
 
     lyrics = text[start_idx:end_idx]
 
-    # remove blank lines in-place
-    lyrics[:] = [x for x in lyrics if x != '']
-
-    # remove non-lyric lines in-place (usually artist tags)
-    lyrics[:] = [x for x in lyrics if x[0] != '[']
+    # remove blank lines & non-lyric lines in-place (usually artist tags)
+    lyrics[:] = [x for x in lyrics if x != '' and x[0] != '[']
 
     # change lyrics from an array of lines to an array of words
     new_lyrics = []
