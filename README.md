@@ -28,7 +28,7 @@ This project bridges the gap between the two disciplines in a visual manner, uni
 
 3. `scraper.py` | One limitation of AZ Lyrics is that their lyrics container/div has no unique id/class, so to process the lyrics, we must extract them after parsing all the text on the page -- but with some **Regex**-powered pattern matching, we can easily do this in one pass through the scraped lines
 
-4. `markov.py` | After the lyrics have been scraped, again use **Regex** -- this time to clean it (all words will be lowercase, with no ending-punctuation, commas, parens, brackets, etc.)
+4. `scraper.py` | After the lyrics have been scraped, again use **Regex** -- this time to clean it (all words will be lowercase, with no ending-punctuation, commas, parens, brackets, etc.)
 
 5. `markov.py` | With the lyrics in an array (each word is one element), process them and build the Markov chain (weighted, directed graph) using the following definitions & algorithm:
     - **Nodes:** Unique words in the lyrics
