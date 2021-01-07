@@ -60,7 +60,7 @@ def parse(song, artist):
     for line in lyrics:
         words = line.split()
         for word in words:
-            new_word = re.sub('[^A-Za-z0-9]+', '', word).lower()
+            new_word = re.sub('[^A-Za-z0-9\']+', '', word).lower()
             new_lyrics.append(new_word)
 
     return new_lyrics
