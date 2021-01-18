@@ -1,5 +1,5 @@
 # My Beautiful Dark Twisted Markov Chain (MBDTMC)*
-`version 1.0.0 | Sinaan Younus`
+`Sinaan Younus`
 
 ![Sweater Weather Markov Chain](https://github.com/sxnaan/markov/blob/main/demos/gif/sweaterweather-theneighbourhood.gif?raw=true)
 
